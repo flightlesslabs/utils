@@ -1,6 +1,6 @@
 {
   "name": "@flightlesslabs/utils",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A collection of reusable TypeScript utilities for everyday development.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
