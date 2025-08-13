@@ -10,7 +10,8 @@
     "lint": "prettier --check . ",
     "check": "eslint . && pnpm run lint",
     "check:fix": "eslint . && pnpm run format",
-    "build": "tsup src/index.ts --format esm,cjs --dts"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "build-docs": "npx typedoc"
   },
   "keywords": [],
   "author": "",
