@@ -19,4 +19,4 @@ npm install @flightlesslabs/utils
 yarn add @flightlesslabs/utils
 ```
 
-**[Explore Modules](https://flightlesslabs.github.io/utils/)**
+**[Explore Modules](https://flightlesslabs.github.io/utils/modules.html)**
