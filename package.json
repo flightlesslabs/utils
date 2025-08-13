@@ -12,7 +12,7 @@
     "check:fix": "eslint . && pnpm run format",
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "docs:build": "npx typedoc",
-    "docs:serve": "npx http-server docs",
+    "docs:serve": "pnpm run docs:build && npx http-server docs -o /modules.html",
     "test": "vitest run",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest run --coverage",
@@ -49,6 +49,7 @@
     "prettier": "3.6.2",
     "tsup": "^8.5.0",
     "typedoc": "^0.28.10",
+    "typedoc-material-theme": "^1.4.0",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.39.1",
     "vitest": "^3.2.4"

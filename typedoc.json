@@ -5,5 +5,11 @@
   "out": "docs",
   "tsconfig": "tsconfig.json",
   "gitRemote": "origin",
-  "githubPages": true
+  "githubPages": true,
+  "entryPointStrategy": "expand",
+  "categorizeByGroup": true,
+  "plugin": [
+    "typedoc-material-theme"
+  ],
+  "themeColor": "#4a0de4"
 }
