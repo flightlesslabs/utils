@@ -1,7 +1,7 @@
 {
   "name": "@flightlesslabs/utils",
-  "version": "0.1.0--beta-1",
-  "description": "Useful Utils",
+  "version": "0.1.0",
+  "description": "A collection of reusable TypeScript utilities for everyday development.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -12,11 +12,16 @@
     "check:fix": "eslint . && pnpm run format",
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "docs:build": "npx typedoc",
-    "docs:serve": "pnpm run docs:build && npx http-server docs -o /modules.html",
+    "docs:serve": "pnpm run docs:build && npx http-server docs",
     "test": "vitest run",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest run --coverage",
     "prepublishOnly": "pnpm run build && pnpm run test"
+  },
+  "homepage": "https://flightlesslabs.github.io/utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flightlesslabs/utils.git"
   },
   "keywords": [
     "typescript",
