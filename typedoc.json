@@ -1,12 +1,18 @@
 {
+  "$schema": "https://typedoc.org/schema.json",
   "entryPoints": [
     "src/index.ts"
   ],
+  "groupOrder": [
+    "Time",
+    "*"
+  ],
   "out": "docs",
   "tsconfig": "tsconfig.json",
+  "entryPointStrategy": "resolve",
   "gitRemote": "origin",
   "githubPages": true,
-  "entryPointStrategy": "expand",
+  "includeVersion": true,
   "categorizeByGroup": true,
   "plugin": [
     "typedoc-material-theme"
