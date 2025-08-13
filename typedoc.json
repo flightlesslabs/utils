@@ -2,7 +2,7 @@
   "entryPoints": [
     "src/index.ts"
   ],
-  "out": "build",
+  "out": "docs",
   "tsconfig": "tsconfig.json",
   "gitRemote": "origin",
   "githubPages": true

@@ -4,9 +4,11 @@
     "module": "ESNext",
     "declaration": true,
     "outDir": "dist",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "strict": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

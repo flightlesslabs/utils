@@ -7,9 +7,9 @@
  * @example
  * ```typescript
  * async function waitForIt() {
- * console.log("Waiting for 2 seconds...");
- * await timeout(2000);
- * console.log("Done waiting!");
+ *  console.log("Waiting for 2 seconds...");
+ *  await timeout(2000);
+ *  console.log("Done waiting!");
  * }
  *
  * waitForIt();
