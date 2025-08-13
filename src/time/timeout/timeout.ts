@@ -10,14 +10,24 @@
  * @returns A promise that resolves after the specified duration.
  *
  * @example
+ * Import:
+ * ```ts
+ * import { timeout } from "@flightlesslabs/utils";
+ * ```
+ *
+ * @example
  * Basic usage:
  * ```ts
+ * import { timeout } from "@flightlesslabs/utils";
+ *
  * await timeout(2000); // Waits 2 seconds
  * ```
  *
  * @example
  * In an async function:
  * ```ts
+ * import { timeout } from "@flightlesslabs/utils";
+ *
  * async function waitForIt() {
  *   console.log("Waiting for 2 seconds...");
  *   await timeout(2000);
