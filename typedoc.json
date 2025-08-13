@@ -1,4 +1,9 @@
 {
-  "entryPoints": ["src/index.ts"],
-  "out": "dist"
+  "entryPoints": [
+    "src/index.ts"
+  ],
+  "out": "build",
+  "tsconfig": "tsconfig.json",
+  "gitRemote": "origin",
+  "githubPages": true
 }
